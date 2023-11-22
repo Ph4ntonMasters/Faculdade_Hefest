@@ -27,7 +27,7 @@ body {
 }
 
 .left-Login > h1 {
-	color: #77ffc0
+	color: #77ffc0;
 	font-size: 3vw;
 	position: absolute;
 	bottom: 100px;
@@ -57,6 +57,22 @@ body {
 	color: #00ff88;
 	font-weight: 800;
 	margin: 0;
+}
+
+.clear {
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+button[disabled] {
+	opacity: 0.7;
+}
+
+.error {
+	color: white;
+	background: red;
+	display: none;
 }
 
 .textfield {
@@ -90,7 +106,7 @@ body {
 		color: #f0ffff94;
 }
 
-.btn-Login {
+.button-primary {
 	width:300px;
 	padding: 16px 0px;
 	margin: 25px;
@@ -98,6 +114,7 @@ body {
 	border-radius: 8px;
 	outline: none;
 	text-transform: uppercase;
+	text-align: center;
 	font-weight: 800;
 	letter-spacing: 3px;
 	color: #2b134b;
